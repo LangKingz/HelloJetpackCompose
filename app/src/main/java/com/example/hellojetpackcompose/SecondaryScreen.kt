@@ -24,7 +24,6 @@ class SecondaryScreen: ComponentActivity(){
         setContent {
             HelloJetpackComposeTheme {
                Scaffold(
-
                ) {innerpadding ->
                    Column(modifier = Modifier.padding(innerpadding).fillMaxSize(),
                        verticalArrangement = Arrangement.Center,
